@@ -56,7 +56,7 @@ export class ContatosEdicaoComponent implements OnInit{
     this.HttpClient.put(environment.ApiContatos , this.form.value)
       .subscribe({
         next: (data : any) => {
-          this.msgSucesso = `'${data.nome}' , atualizado com sucesso.`;
+          this.msgSucesso = `'${data.nome}', atualizado com sucesso.`;
           this.form.reset();
         },
         error: (e) => {

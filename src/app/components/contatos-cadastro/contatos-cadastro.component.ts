@@ -4,6 +4,7 @@ import { HttpClient } from '@angular/common/http';
 import { FormControl, FormGroup, FormsModule, ReactiveFormsModule, Validators } from '@angular/forms';
 import { environment } from '../../../environments/environment.development';
 
+
 @Component({
   selector: 'app-contatos-cadastro',
   standalone: true,
@@ -16,6 +17,8 @@ import { environment } from '../../../environments/environment.development';
   styleUrl: './contatos-cadastro.component.css'
 })
 export class ContatosCadastroComponent {
+
+
 
   msgSucesso : string = '';
   msgErro : string = '';
