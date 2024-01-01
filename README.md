@@ -1,27 +1,37 @@
-# Projetofinal02
+# javaProjetoFinal02
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.6.
+O `javaProjetoFinal02` é uma API desenvolvida em Java com Spring MVC, Angular e banco de dados PostgreSQL para gerenciamento de contatos.
 
-## Development server
+# Objetivo proposto: 
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Desenvolver uma aplicação Spring Boot com banco de dados PostGreSQL e FrontEnd utilizando Angular.
 
-## Code scaffolding
+# O repositório BackEnd encontra-se no link abaixo
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+https://github.com/marcelogmoura/projetoFinal02Coti-back
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Funcionalidades
 
-## Running unit tests
+- Cadastro e gerenciamento contatos (gravação, consulta, edição, exclusão).
+- Integração com o banco de dados PostgreSQL para armazenar as informações.
+- Validações no campos e formulários reativos.
+- Interface de usuário amigável usando Bootstrap e JQuery.
+- Navegação SPA para as rotas
+- Testes unitários utilizando jUnit
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Bibliotecas
 
-## Running end-to-end tests
+- Lombok
+- Hibernate / JPA
+- Swagger
+- jUnit
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Pré-requisitos
 
-## Further help
+Antes de começar, certifique-se de que você tenha instalado em sua máquina:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- Java Development Kit (JDK) 8 ou superior: [Download JDK](https://www.oracle.com/java/technologies/javase-downloads.html)
+- Apache Maven: [Download Maven](https://maven.apache.org/download.cgi)
+- PostgreSQL: [Download PostgreSQL](https://www.postgresql.org/download/)
+
